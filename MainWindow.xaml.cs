@@ -60,5 +60,30 @@ namespace Dash4
         {
             rectHover.Margin = new Thickness(20, 466, 0, 0);
         }
+
+        private void WaveProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
+
+        private void WaveProgressBar_ValueChanged_1(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
+
+        private void WaveProgressBar_ValueChanged_2(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
+
+        private void WaveProgressBar_ValueChanged_3(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
+
+        private void ProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<T> e)
+        {
+
+        }
     }
 }

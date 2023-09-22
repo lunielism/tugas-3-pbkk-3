@@ -864,18 +864,18 @@
             </Style.Triggers>
         </Style>
     </Window.Resources>
-    <Grid Background="#FFFBFDCA">
-        <Rectangle Fill="#FFF5FB7C" HorizontalAlignment="Left" Height="550" VerticalAlignment="Top" Width="210"/>
-        <Rectangle Name="rectHover" Fill="#FFFBFDCA" HorizontalAlignment="Left" Height="40" Margin="20,466,0,0" VerticalAlignment="Top" Width="210" RadiusY="20" RadiusX="20"/>
+    <Grid Background="#B83A4B">
+        <Rectangle Fill="#820000" HorizontalAlignment="Left" Height="550" VerticalAlignment="Top" Width="210"/>
+        <Rectangle Name="rectHover" Fill="#B83A4B" HorizontalAlignment="Left" Height="40" Margin="20,466,0,0" VerticalAlignment="Top" Width="210" RadiusY="20" RadiusX="20"/>
         <StackPanel HorizontalAlignment="Left" Height="550" VerticalAlignment="Top" Width="210">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Height="50" FontSize="22" FontWeight="Bold" TextAlignment="Center" Margin="0,10,0,0"><Run Foreground="Red" FontSize="36" Text="*"/><Run Text="Yolan"/></TextBlock>
-            <Button Content="Dashboard" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" d:LayoutOverrides="Height" Margin="0,30,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Style="{DynamicResource ButtonStyle1}" Click="Button_Click"/>
-            <Button Content="Users" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Style="{DynamicResource ButtonStyle2}" Click="Button_Click_1"/>
-            <Button Content="Chats" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Style="{DynamicResource ButtonStyle3}" Click="Button_Click_2"/>
-            <Button Content="Documents" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Style="{DynamicResource ButtonStyle4}" Click="Button_Click_3"/>
-            <Button Content="Music" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Style="{DynamicResource ButtonStyle5}" Click="Button_Click_4"/>
-            <Button Content="Mail" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Style="{DynamicResource ButtonStyle6}" Click="Button_Click_5"/>
-            <Button Content="Settings" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,100,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Style="{DynamicResource ButtonStyle7}" Click="Button_Click_6"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Height="50" FontSize="18" FontWeight="Bold" TextAlignment="Center" Margin="1,10,0,0"><Run Foreground="White" FontSize="30" Text="Stanford"/></TextBlock>
+            <Button Content="    Dashboard" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" d:LayoutOverrides="Height" Margin="0,30,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontWeight="Bold" FontFamily="Segoe UI Semibold" Style="{DynamicResource ButtonStyle1}" Click="Button_Click"/>
+            <Button Content="  Users" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Foreground="White" Style="{DynamicResource ButtonStyle2}" Click="Button_Click_1"/>
+            <Button Content="  Chats" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Foreground="White" Style="{DynamicResource ButtonStyle3}" Click="Button_Click_2"/>
+            <Button Content="   Documents" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold"  Foreground="White" Style="{DynamicResource ButtonStyle4}" Click="Button_Click_3"/>
+            <Button Content="   Music" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Foreground="White" Style="{DynamicResource ButtonStyle5}" Click="Button_Click_4"/>
+            <Button Content="   Mail" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Foreground="White" Style="{DynamicResource ButtonStyle6}" Click="Button_Click_5"/>
+            <Button Content="  Settings" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,100,0,0" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Segoe UI Semibold" Foreground="White"  Style="{DynamicResource ButtonStyle7}" Click="Button_Click_6"/>
         </StackPanel>
         <Rectangle Fill="#FFFDFDFD" HorizontalAlignment="Left" Height="60" Margin="210,0,0,0" VerticalAlignment="Top" Width="690"/>
         <hc:SearchBar hc:InfoElement.Placeholder="Search" Margin="225,8,127,499" Style="{StaticResource SearchBarPlus}"/>
@@ -892,33 +892,40 @@
         <hc:Card Content="" HorizontalAlignment="Left" Height="310" Margin="230,210,0,0" VerticalAlignment="Top" Width="324"/>
         <hc:Card HorizontalAlignment="Left" Height="145" Margin="566,210,0,0" VerticalAlignment="Top" Width="324"/>
         <hc:Card Content="" HorizontalAlignment="Left" Height="150" Margin="567,370,0,0" VerticalAlignment="Top" Width="324"/>
-        <TextBlock HorizontalAlignment="Left" Height="20" Margin="240,90,0,0" TextWrapping="Wrap" Text="Schools" VerticalAlignment="Top" Width="110" Foreground="#FF5B5B5B"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="240,90,0,0" TextWrapping="Wrap" Text="University" VerticalAlignment="Top" Width="110" Foreground="#FF5B5B5B"/>
         <TextBlock HorizontalAlignment="Left" Height="30" Margin="240,115,0,0" TextWrapping="Wrap" Text="4,820" VerticalAlignment="Top" Width="60" Foreground="#FF5B5B5B" FontSize="22" FontFamily="Segoe UI Semibold"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="240,160,0,0" TextWrapping="Wrap" Text="Total 80%" VerticalAlignment="Top" Width="110" Foreground="#FF5B5B5B"/>
-        <hc:WaveProgressBar Value="80" Margin="305,97.05,525,382.95" Width="Auto"/>
+        <hc:WaveProgressBar Value="80" Margin="305,97.05,525,382.95" Width="Auto" ValueChanged="WaveProgressBar_ValueChanged_1" WaveFill="#FF2D716F"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="410,90,0,0" TextWrapping="Wrap" Text="Students" VerticalAlignment="Top" Width="110" Foreground="#FF5B5B5B"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="410,115,0,0" TextWrapping="Wrap" Text="8,834" VerticalAlignment="Top" Width="60" Foreground="#FF5B5B5B" FontSize="22" FontFamily="Segoe UI Semibold"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="410,115,0,0" TextWrapping="Wrap" Text="5,827" VerticalAlignment="Top" Width="68" Foreground="#FF5B5B5B" FontSize="22" FontFamily="Segoe UI Semibold"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="410,160,0,0" TextWrapping="Wrap" Text="Present 80%  Absent 20%" VerticalAlignment="Top" Width="144" Foreground="#FF5B5B5B"/>
-        <ProgressBar HorizontalAlignment="Left" Height="5" Margin="410,150,0,0" VerticalAlignment="Top" Width="135" Value="80" FontSize="6"/>
-        <TextBlock HorizontalAlignment="Left" Height="20" Margin="575,90,0,0" TextWrapping="Wrap" Text="Teachers" VerticalAlignment="Top" Width="110" Foreground="#FF5B5B5B"/>
+        <ProgressBar HorizontalAlignment="Left" Height="5" Margin="410,150,0,0" VerticalAlignment="Top" Width="135" Value="80" FontSize="6" ValueChanged="ProgressBar_ValueChanged" Background="#FF59B3A9">
+            <ProgressBar.Foreground>
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Color="#FF326CF3" Offset="0.58"/>
+                    <GradientStop Color="#FF017E7C" Offset="1"/>
+                </LinearGradientBrush>
+            </ProgressBar.Foreground>
+        </ProgressBar>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="575,90,0,0" TextWrapping="Wrap" Text="Lecturer" VerticalAlignment="Top" Width="110" Foreground="#FF5B5B5B"/>
         <TextBlock HorizontalAlignment="Left" Height="30" Margin="575,115,0,0" TextWrapping="Wrap" Text="5,820" VerticalAlignment="Top" Width="60" Foreground="#FF5B5B5B" FontSize="22" FontFamily="Segoe UI Semibold"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="575,160,0,0" TextWrapping="Wrap" Text="Today's Present 1,234" VerticalAlignment="Top" Width="135" Foreground="#FF5B5B5B"/>
-        <hc:WaveProgressBar Value="30" Margin="647.05,97.05,190,390" Width="Auto" WaveFill="#FFEA32F3"/>
+        <hc:WaveProgressBar Value="60" Margin="647.05,97.05,190,390" Width="Auto" WaveFill="#2D716F"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="745,90,0,0" TextWrapping="Wrap" Text="Parents" VerticalAlignment="Top" Width="110" Foreground="#FF5B5B5B"/>
         <TextBlock HorizontalAlignment="Left" Height="30" Margin="745,115,0,0" TextWrapping="Wrap" Text="6,820" VerticalAlignment="Top" Width="60" Foreground="#FF5B5B5B" FontSize="22" FontFamily="Segoe UI Semibold"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="745,160,0,0" TextWrapping="Wrap" Text="Total 60%" VerticalAlignment="Top" Width="110" Foreground="#FF5B5B5B"/>
-        <hc:WaveProgressBar Value="60" Margin="810,97.05,20,382.95" Width="Auto" WaveFill="#FFFF8000"/>
+        <hc:WaveProgressBar Value="60" Margin="810,97.05,20,382.95" Width="Auto" WaveFill="#FF8F993E" ValueChanged="WaveProgressBar_ValueChanged"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="240,220,0,0" TextWrapping="Wrap" Text="Top Scorer" VerticalAlignment="Top" Width="110" Foreground="#FF5B5B5B" FontFamily="Segoe UI Semibold" FontSize="14"/>
-        <TextBlock HorizontalAlignment="Left" Height="20" Margin="435,220,0,0" TextWrapping="Wrap" Text="2021 - 2022" VerticalAlignment="Top" Width="110" Foreground="#FF0A2BFF" FontFamily="Segoe UI Semibold" FontSize="14" TextAlignment="Right"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="435,220,0,0" TextWrapping="Wrap" Text="2023/2024" VerticalAlignment="Top" Width="110" Foreground="#FF0A2BFF" FontFamily="Segoe UI Semibold" FontSize="14" TextAlignment="Right"/>
         <Path Data="M240,250 L545.04098,250" Fill="#FFB2B2B2" HorizontalAlignment="Left" Height="5" Margin="240,250,0,0" Stretch="Fill" VerticalAlignment="Top" Width="305.041" Stroke="#FFB2B2B2"/>
         <Grid Margin="240,260,565,155">
-            <hc:Card HorizontalAlignment="Left" Height="135" VerticalAlignment="Top" Width="95" Background="#FF595959"/>
+            <hc:Card HorizontalAlignment="Left" Height="135" VerticalAlignment="Top" Width="95" Background=" #620059"/>
             <Image HorizontalAlignment="Left" Height="35" Margin="29.669,12.999,0,0" VerticalAlignment="Top" Width="35" Source="gamer (1).png"/>
             <TextBlock HorizontalAlignment="Left" Height="57.001" Margin="5,47.999,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="10" TextAlignment="Center"><Run FontSize="11" Text="John Doe"/><LineBreak/><Run FontSize="8" FontFamily="Segoe UI" Text="Academy"/><LineBreak/><Run FontSize="8" FontFamily="Segoe UI"/><LineBreak/><Run FontSize="16" Text="99.90%"/></TextBlock>
             <Button Content="1st" HorizontalAlignment="Left" Height="23.666" Margin="10.331,105,0,0" VerticalAlignment="Top" Width="75" Background="#7FFFFFFF" Foreground="White" FontSize="7" FontWeight="Bold" BorderBrush="{x:Null}"/>
         </Grid>
         <Grid Margin="344.719,260,460.281,155">
-            <hc:Card HorizontalAlignment="Left" Height="135" VerticalAlignment="Top" Width="95" Background="#FF002576"/>
+            <hc:Card HorizontalAlignment="Left" Height="135" VerticalAlignment="Top" Width="95" Background="#FF7F2D48"/>
             <Image HorizontalAlignment="Left" Height="35" Margin="29.669,12.999,0,0" VerticalAlignment="Top" Width="35" Source="gamer (2).png"/>
             <TextBlock HorizontalAlignment="Left" Height="57.001" Margin="5,47.999,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="10" TextAlignment="Center"><Run FontSize="11" Text="Jane Doe"/><LineBreak/><Run FontSize="8" FontFamily="Segoe UI" Text="Academy"/><LineBreak/><Run FontSize="8" FontFamily="Segoe UI"/><LineBreak/><Run FontSize="16" Text="99.80%"/></TextBlock>
             <Button Content="2nd" HorizontalAlignment="Left" Height="23.666" Margin="10.331,105,0,0" VerticalAlignment="Top" Width="75" Background="#7FFFFFFF" Foreground="White" FontSize="7" FontWeight="Bold" BorderBrush="{x:Null}"/>
@@ -928,50 +935,22 @@
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="7*"/>
             </Grid.RowDefinitions>
-            <hc:Card HorizontalAlignment="Left" Height="135" VerticalAlignment="Top" Width="95" Background="#FFBF009C" Grid.RowSpan="2"/>
+            <hc:Card HorizontalAlignment="Left" Height="135" VerticalAlignment="Top" Width="95" Background="#FF766253" Grid.RowSpan="2"/>
             <Image HorizontalAlignment="Left" Height="35" Margin="29.669,12.999,0,0" VerticalAlignment="Top" Width="35" Source="gamer (3).png" Grid.RowSpan="2"/>
-            <TextBlock HorizontalAlignment="Left" Height="57.001" Margin="5,17.999,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="10" TextAlignment="Center" Grid.Row="1"><Run FontSize="11" Text="John Doe"/><LineBreak/><Run FontSize="8" FontFamily="Segoe UI" Text="Academy"/><LineBreak/><Run FontSize="8" FontFamily="Segoe UI"/><LineBreak/><Run FontSize="16" Text="99.60%"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="57.001" Margin="5,17.999,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="10" TextAlignment="Center" Grid.Row="1"><Run FontSize="11" Text="James Doe"/><LineBreak/><Run FontSize="8" FontFamily="Segoe UI" Text="Academy"/><LineBreak/><Run FontSize="8" FontFamily="Segoe UI"/><LineBreak/><Run FontSize="16" Text="99.60%"/></TextBlock>
             <Button Content="3rd" HorizontalAlignment="Left" Height="23.666" Margin="10.331,75,0,0" VerticalAlignment="Top" Width="75" Background="#7FFFFFFF" Foreground="White" FontSize="7" FontWeight="Bold" BorderBrush="{x:Null}" Grid.Row="1"/>
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Height="96" Margin="240,410,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305.041"><Run Text="What they think"/><LineBreak/><Run Text="......"/><LineBreak/><Run Foreground="#FF575757" FontSize="9" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="20" Margin="574.959,220,0,0" TextWrapping="Wrap" Text="School Performance" VerticalAlignment="Top" Width="135.041" Foreground="#FF5B5B5B" FontFamily="Segoe UI Semibold" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Height="96" Margin="240,410,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305.041"><Run FontWeight="Bold" Text="What they think"/><LineBreak/><Run Text="James Doe, Computational Science Class 21"/><LineBreak/><Run Foreground="#FF575757" FontSize="8" Text="Stanford University has long been recognized for its academic excellence, but recently, it's been making waves on the sports field as well. The top scorer at Stanford, a star athlete whose name has become synonymous with victory, has left spectators and experts alike wondering just how they do it. Their unparalleled dedication to the game, relentless work ethic, and an unyielding commitment to teamwork have all played a pivotal role in their ascent to the top. "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="575,220,0,0" TextWrapping="Wrap" Text="Students Performance" VerticalAlignment="Top" Width="202" Foreground="#7F2D48" FontFamily="Segoe UI Semibold" FontSize="14"/>
         <Path Data="M240,250 L545.04098,250" Fill="#FFB2B2B2" HorizontalAlignment="Left" Height="5" Margin="574.959,250,0,0" Stretch="Fill" VerticalAlignment="Top" Width="305.041" Stroke="#FFB2B2B2"/>
-        <hc:WaveProgressBar Value="28" FontSize="10" Margin="574.959,267.332,265.041,200.668" WaveThickness="4" WaveStroke="#FFFF0080" Width="Auto">
-            <hc:WaveProgressBar.WaveFill>
-                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
-                    <GradientStop Color="#66FF0080" Offset="0"/>
-                    <GradientStop Color="#FFFF0080" Offset="1"/>
-                </LinearGradientBrush>
-            </hc:WaveProgressBar.WaveFill>
-        </hc:WaveProgressBar>
+        <hc:WaveProgressBar Value="78" FontSize="10" Margin="574.959,267.332,265.041,200.668" WaveThickness="4" WaveStroke="#FFF9A44A" Width="Auto" ValueChanged="WaveProgressBar_ValueChanged_2" WaveFill="#FFE98300"/>
         <Button Content="View all" HorizontalAlignment="Left" Height="24" Margin="820,218.393,0,0" VerticalAlignment="Top" Width="60" FontSize="9" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF0A2DFF"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="575,252.225,0,0" TextWrapping="Wrap" Text="Gvot" VerticalAlignment="Top" Width="59.959" Foreground="#FF5B5B5B" FontFamily="Segoe UI Semibold" FontSize="10" TextAlignment="Center"/>
-        <hc:WaveProgressBar Value="42" FontSize="10" Margin="651.334,267.332,188.666,200.668" WaveThickness="4" WaveStroke="#FF00FFB9" Width="Auto">
-            <hc:WaveProgressBar.WaveFill>
-                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
-                    <GradientStop Color="#5600FFE8" Offset="0"/>
-                    <GradientStop Color="#FF00FFE8" Offset="1"/>
-                </LinearGradientBrush>
-            </hc:WaveProgressBar.WaveFill>
-        </hc:WaveProgressBar>
+        <hc:WaveProgressBar Value="62" FontSize="10" Margin="651.334,267.332,188.666,200.668" WaveThickness="4" WaveStroke="#FFF4795B" Width="Auto" WaveFill="#FFE04F39"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="651.375,252.225,0,0" TextWrapping="Wrap" Text="Private" VerticalAlignment="Top" Width="59.959" Foreground="#FF5B5B5B" FontFamily="Segoe UI Semibold" FontSize="10" TextAlignment="Center"/>
-        <hc:WaveProgressBar Value="30" FontSize="10" Margin="727.001,267.332,112.999,200.668" WaveThickness="4" WaveStroke="#FFFF4B00" Width="Auto">
-            <hc:WaveProgressBar.WaveFill>
-                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
-                    <GradientStop Color="#4CFF8B00" Offset="0"/>
-                    <GradientStop Color="#FFFF8B00" Offset="1"/>
-                </LinearGradientBrush>
-            </hc:WaveProgressBar.WaveFill>
-        </hc:WaveProgressBar>
+        <hc:WaveProgressBar Value="40" FontSize="10" Margin="727.001,267.332,112.999,200.668" WaveThickness="4" WaveStroke="#FFFFE781" Width="Auto" ValueChanged="WaveProgressBar_ValueChanged_3" WaveFill="#FFFEDD5C"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="727.042,252.225,0,0" TextWrapping="Wrap" Text="Others" VerticalAlignment="Top" Width="59.959" Foreground="#FF5B5B5B" FontFamily="Segoe UI Semibold" FontSize="10" TextAlignment="Center"/>
-        <hc:WaveProgressBar Value="28" FontSize="10" Margin="804,267.332,36,200.668" WaveThickness="4" WaveStroke="#FF57FF00" Width="Auto">
-            <hc:WaveProgressBar.WaveFill>
-                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
-                    <GradientStop Color="#4C00FF00" Offset="0"/>
-                    <GradientStop Color="Lime" Offset="1"/>
-                </LinearGradientBrush>
-            </hc:WaveProgressBar.WaveFill>
-        </hc:WaveProgressBar>
+        <hc:WaveProgressBar Value="58" FontSize="10" Margin="804,267.332,36,200.668" WaveThickness="4" WaveStroke="#FFF4F4F4" Width="Auto" WaveFill="#FFB6B1A9"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="804.041,252.225,0,0" TextWrapping="Wrap" Text="Average" VerticalAlignment="Top" Width="59.959" Foreground="#FF5B5B5B" FontFamily="Segoe UI Semibold" FontSize="10" TextAlignment="Center"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="574.959,379.935,0,0" TextWrapping="Wrap" Text="School Performance" VerticalAlignment="Top" Width="135.041" Foreground="#FF5B5B5B" FontFamily="Segoe UI Semibold" FontSize="14"/>
         <Path Data="M240,250 L545.04098,250" Fill="#FFB2B2B2" HorizontalAlignment="Left" Height="5" Margin="574.959,409.935,0,0" Stretch="Fill" VerticalAlignment="Top" Width="305.041" Stroke="#FFB2B2B2"/>
